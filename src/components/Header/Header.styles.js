@@ -22,7 +22,7 @@ export const LogoImg = styled.img`
   }
 `;
 
-export const TMDBLogoImg = styled.img`
+export const PageLogoImg = styled.img`
   width: 100px;
 
   @media screen and (max-width: 500px) {

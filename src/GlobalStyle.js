@@ -1,7 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 
-export const GlobalStyle = createGlobalStyle`
-  :root {
+export const GlobalStyle = createGlobalStyle
+   //configuración de variables de CSS
+   //configuración de las propiedades iniciales de CSS, base para toda la App
+   `:root {
     --maxWidth: 1280px;
     --white: #fff;
     --lightGrey: #eee;
@@ -13,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
     --fontSmall: 1rem;
   }
 
+  
   * {
     box-sizing: border-box;
     font-family: 'Abel', sans-serif;
