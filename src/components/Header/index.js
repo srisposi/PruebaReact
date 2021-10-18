@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import MovieLogo from '../../images/react-movie-logo.svg';
-import PageLogo from '../../images/tmdb_logo.svg';
+import MovieLogo from '../../images/movie-logo.svg';
+import PageLogo from '../../images/page_logo.svg';
 
 import { Wrapper, Content, LogoImg, PageLogoImg } from './Header.styles';
 
