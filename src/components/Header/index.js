@@ -10,9 +10,9 @@ const Header = () => (
   <Wrapper>
     <Content>
       <Link to='/'>
-        <LogoImg src={MovieLogo} alt='rmdb-logo' />
+        <LogoImg src={MovieLogo} alt='movie-logo' />
       </Link>
-      <PageLogoImg src={PageLogo} alt='tmdb-logo' />
+      <PageLogoImg src={PageLogo} alt='page-logo' />
     </Content>
   </Wrapper>
 );
