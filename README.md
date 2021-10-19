@@ -64,3 +64,7 @@ Se organizó el proyecto en carpetas, cada una para un componente o función esp
 # Infraestructura
 
 Se trabajo como controlador de versiones a GitHub y para hacer el deploy con Netlify mediante el concepto de CD/CI para que cada vez que se realice el 'push' o subida de una parte del código a GitHub, se pudiera deployar ese cambió en el momento realizado.
+
+# Demo de la Aplicación
+
+https://youthful-albattani-dbd244.netlify.app
