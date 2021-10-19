@@ -60,7 +60,10 @@ Luego de esto se deberán correr los siguientes comandos:
 # Arquitectura
 
 Se trabajó con una arquitectura de funtional components aprovechando las props y hooks que React js ofrece de forma nativa.
+
 Se organizó el proyecto en carpetas, cada una para un componente o función especifica como el caso de los hooks, y dentro de cada carpeta se estableció un index.js para dejar la importación de archivos de forma más ordenada. Además dentro de cada carpeta se puede observar el archivo styled que define los estilos de cada uno de los componentes de la página.
+
+Además de lo mencionado, es importante destacar la creación de Hooks personalizados que se pueden visualizar en una de las carpetas del proyecto como hooks
 # Infraestructura
 
 Se trabajo como controlador de versiones a GitHub y para hacer el deploy con Netlify mediante el concepto de CD/CI para que cada vez que se realice el 'push' o subida de una parte del código a GitHub, se pudiera deployar ese cambió en el momento realizado.
