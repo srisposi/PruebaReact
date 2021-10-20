@@ -16,7 +16,8 @@ export const useMovieFetch = movieId => {
 
         const movie = await API.fetchMovie(movieId);
         const credits = await API.fetchCredits(movieId);
-        // Get directors only
+        
+        // Obtiene solo los directores
         const directors = credits.crew.filter(
           member => member.job === 'Director'
         );
@@ -44,7 +45,7 @@ export const useMovieFetch = movieId => {
     fetchMovie();
   }, [movieId]);
 
-  // Write to sessionStorage
+  // Escribe en el Session Storage
   useEffect(() => {
     sessionStorage.setItem(movieId, JSON.stringify(state));
   }, [movieId, state]);
