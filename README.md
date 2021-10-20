@@ -100,8 +100,8 @@ Este archivo contiene las funciones para:
 Se debe generar crear una cuenta en https://www.themoviedb.org/ luego de esto se solicitará una API key la cuál se deberá configurar en el .env del proyecto.
 
 Luego de esto se deberán correr los siguientes comandos:
-- `npm ci`
-- `npm start`
+    - `npm ci`
+    - `npm start`
 
 # Infraestructura
 Se trabajo como controlador de versiones a GitHub y para hacer el deploy con Netlify mediante el concepto de CD/CI para que cada vez que se realice el 'push' o subida de una parte del código a GitHub, se pudiera deployar ese cambió en el momento realizado.
